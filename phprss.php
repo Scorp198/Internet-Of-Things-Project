@@ -18,7 +18,7 @@
 		$description = $feed[$x]['desc'];
 		$date = date('l F d, Y', strtotime($feed[$x]['date']));
 
-        echo '<br>'.$title;
+        echo '#'.$title;
 		//echo '<small><em>Posted on '.$date.'</em></small></p>';
 		//echo '<p>'.$description.'</p>';
 
@@ -29,6 +29,6 @@
         */
         
 	}
-echo '<br>';
+echo '#';
 		
 ?>
